@@ -1,4 +1,4 @@
-import { ArrayMinSize, IsNotEmpty, IsNumber, IsPhoneNumber, Length } from 'class-validator';
+import { ArrayMinSize, IsNotEmpty } from 'class-validator';
 
 export class CreateSchoolDto {
     @IsNotEmpty({message: "Title cannot be empty"})
